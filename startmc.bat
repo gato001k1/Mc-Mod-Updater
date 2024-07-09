@@ -40,7 +40,7 @@ curl -O --ssl-no-revoke %r%
 del /q /f /s "%mod%\*.*"
 cd "%mod%"
 curl -LJO --ssl-no-revoke %rep%
-tar -xf fefe.zip
+tar -xf mods.zip
 goto skip
 
 :skip
